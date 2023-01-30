@@ -11,6 +11,9 @@ export default function Root() {
             <li>
               <a href={`/components/effect.js`}>Effect</a>
             </li>
+            <li>
+              <a href={`/components/memo.js`}>Memo</a>
+            </li>
           </ul>
         </nav>
       </div>
