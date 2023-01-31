@@ -8,6 +8,7 @@ import Root from "./routes/root";
 import State from "./routes/components/state";
 import Effect from "./routes/components/effect";
 import Memo from "./routes/components/memo";
+import Ref from "./routes/components/ref";
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/components/memo.js",
     element: <Memo/>,
+  },
+  {
+    path: "/components/ref.js",
+    element: <Ref/>,
   },
 ]);
 

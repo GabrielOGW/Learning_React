@@ -14,6 +14,9 @@ export default function Root() {
             <li>
               <a href={`/components/memo.js`}>Memo</a>
             </li>
+            <li>
+              <a href={`/components/ref.js`}>Ref</a>
+            </li>
           </ul>
         </nav>
       </div>
