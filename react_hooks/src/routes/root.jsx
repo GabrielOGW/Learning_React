@@ -17,6 +17,9 @@ export default function Root() {
             <li>
               <a href={`/components/ref.js`}>Ref</a>
             </li>
+            <li>
+              <a href={`/components/context.js`}>Context</a>
+            </li>
           </ul>
         </nav>
       </div>

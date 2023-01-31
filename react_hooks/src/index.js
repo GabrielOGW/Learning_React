@@ -9,6 +9,7 @@ import State from "./routes/components/state";
 import Effect from "./routes/components/effect";
 import Memo from "./routes/components/memo";
 import Ref from "./routes/components/ref";
+import Context from "./routes/components/context";
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/components/ref.js",
     element: <Ref/>,
+  },
+  {
+    path: "/components/context.js",
+    element: <Context/>,
   },
 ]);
 
