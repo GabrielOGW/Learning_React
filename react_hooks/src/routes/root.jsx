@@ -20,6 +20,9 @@ export default function Root() {
             <li>
               <a href={`/components/context.js`}>Context</a>
             </li>
+            <li>
+              <a href={`/components/reducer.js`}>Reducer</a>
+            </li>
           </ul>
         </nav>
       </div>
