@@ -6,6 +6,7 @@ import Memo from "./routes/components/memo";
 import Ref from "./routes/components/ref";
 import Context from "./routes/components/context";
 import Reducer from "./routes/components/reducer";
+import Callback from "./routes/components/callback";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/components/reducer.js",
     element: <Reducer />,
+  },
+  {
+    path: "/components/callback.js",
+    element: <Callback />,
   },
 ]);
 

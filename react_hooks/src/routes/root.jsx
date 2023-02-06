@@ -23,6 +23,9 @@ export default function Root() {
             <li>
               <a href={`/components/reducer.js`}>Reducer</a>
             </li>
+            <li>
+              <a href={`/components/callback.js`}>Reducer</a>
+            </li>
           </ul>
         </nav>
       </div>
