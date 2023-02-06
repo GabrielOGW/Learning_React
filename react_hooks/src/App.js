@@ -12,35 +12,38 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    children: [
+      {
+        path: "/components/state.js",
+        element: <State />,
+      },
+      {
+        path: "/components/effect.js",
+        element: <Effect />,
+      },
+      {
+        path: "/components/memo.js",
+        element: <Memo />,
+      },
+      {
+        path: "/components/ref.js",
+        element: <Ref />,
+      },
+      {
+        path: "/components/context.js",
+        element: <Context />,
+      },
+      {
+        path: "/components/reducer.js",
+        element: <Reducer />,
+      },
+      {
+        path: "/components/callback.js",
+        element: <Callback />,
+      },
+    ]
   },
-  {
-    path: "/components/state.js",
-    element: <State />,
-  },
-  {
-    path: "/components/effect.js",
-    element: <Effect />,
-  },
-  {
-    path: "/components/memo.js",
-    element: <Memo />,
-  },
-  {
-    path: "/components/ref.js",
-    element: <Ref />,
-  },
-  {
-    path: "/components/context.js",
-    element: <Context />,
-  },
-  {
-    path: "/components/reducer.js",
-    element: <Reducer />,
-  },
-  {
-    path: "/components/callback.js",
-    element: <Callback />,
-  },
+  
 ]);
 
 export default function App() {

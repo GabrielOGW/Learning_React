@@ -1,33 +1,40 @@
+import { Link, Outlet } from "react-router-dom";
+import './navbar.css'
+
+
 export default function Root() {
   return (
     <>
-      <div id="navbar">
-        <h1>React Hooks</h1>
+      <div id="sidebar">
+        <h2>React Hooks</h2>
         <nav>
           <ul>
             <li>
-              <a href={`./components/state.js`}>State</a>
+              <Link to={`/components/state.js`}>State</Link>
             </li>
             <li>
-              <a href={`/components/effect.js`}>Effect</a>
+              <Link to={`/components/effect.js`}>Effect</Link>
             </li>
             <li>
-              <a href={`/components/memo.js`}>Memo</a>
+              <Link to={`/components/memo.js`}>Memo</Link>
             </li>
             <li>
-              <a href={`/components/ref.js`}>Ref</a>
+              <Link to={`/components/ref.js`}>Ref</Link>
             </li>
             <li>
-              <a href={`/components/context.js`}>Context</a>
+              <Link to={`/components/context.js`}>Context</Link>
             </li>
             <li>
-              <a href={`/components/reducer.js`}>Reducer</a>
+              <Link to={`/components/reducer.js`}>Reducer</Link>
             </li>
             <li>
-              <a href={`/components/callback.js`}>Reducer</a>
+              <Link to={`/components/callback.js`}>Callback</Link>
             </li>
           </ul>
         </nav>
+      </div>
+      <div id="main-content">
+        <Outlet />
       </div>
     </>
   );
