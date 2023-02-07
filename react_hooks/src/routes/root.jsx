@@ -30,6 +30,9 @@ export default function Root() {
             <li>
               <Link to={`/components/callback.js`}>Callback</Link>
             </li>
+            <li>
+              <Link to={`/components/customHook.js`}>Custom Hook</Link>
+            </li>
           </ul>
         </nav>
       </div>

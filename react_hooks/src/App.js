@@ -7,6 +7,7 @@ import Ref from "./routes/components/ref";
 import Context from "./routes/components/context";
 import Reducer from "./routes/components/reducer";
 import Callback from "./routes/components/callback";
+import CustomHook from "./routes/components/customHook";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/components/callback.js",
         element: <Callback />,
+      },
+      {
+        path: "/components/customHook.js",
+        element: <CustomHook />,
       },
     ]
   },
