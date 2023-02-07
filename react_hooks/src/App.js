@@ -8,6 +8,7 @@ import Context from "./routes/components/context";
 import Reducer from "./routes/components/reducer";
 import Callback from "./routes/components/callback";
 import CustomHook from "./routes/components/customHook";
+import LayoutEffect from "./routes/components/layoutEffect";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/components/customHook.js",
         element: <CustomHook />,
+      },
+      {
+        path: "/components/layoutEffect.js",
+        element: <LayoutEffect />,
       },
     ]
   },
