@@ -34,6 +34,9 @@ export default function Root() {
               <Link to={`/components/layoutEffect.js`}>Layout Effect</Link>
             </li>
             <li>
+              <Link to={`/components/transition.js`}>Transition</Link>
+            </li>
+            <li>
               <Link to={`/components/customHook.js`}>Custom Hook</Link>
             </li>
           </ul>

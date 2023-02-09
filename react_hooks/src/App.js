@@ -9,6 +9,7 @@ import Reducer from "./routes/components/reducer";
 import Callback from "./routes/components/callback";
 import CustomHook from "./routes/components/customHook";
 import LayoutEffect from "./routes/components/layoutEffect";
+import Transition from "./routes/components/transition";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/components/layoutEffect.js",
         element: <LayoutEffect />,
+      },
+      {
+        path: "/components/transition.js",
+        element: <Transition />,
       },
     ]
   },
