@@ -37,6 +37,9 @@ export default function Root() {
               <Link to={`/components/transition.js`}>Transition</Link>
             </li>
             <li>
+              <Link to={`/components/deferredValue.js`}>Deferred Value</Link>
+            </li>
+            <li>
               <Link to={`/components/customHook.js`}>Custom Hook</Link>
             </li>
           </ul>

@@ -10,6 +10,7 @@ import Callback from "./routes/components/callback";
 import CustomHook from "./routes/components/customHook";
 import LayoutEffect from "./routes/components/layoutEffect";
 import Transition from "./routes/components/transition";
+import DeferredValue from "./routes/components/deferredValue";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/components/transition.js",
         element: <Transition />,
+      },
+      {
+        path: "/components/deferredValue.js",
+        element: <DeferredValue />,
       },
     ]
   },
